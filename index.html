@@ -132,17 +132,22 @@
 
 
 
-  <header>
-    <h1>Brasília F.C</h1>
-  </header>
-
+<header>
+  <h1>Brasília F.C</h1>
+</header>
+<script>
+function irParaCalendario() {
+  document.getElementById("calendario").scrollIntoView({
+    behavior: "smooth"
+  });
+}
+</script>
 <section class="hero">
-  <img src="brasilia.jfif" alt="Brasília F.C" 
+  <img src="imagens/brasilia.jfif" alt="Brasília F.C" 
   style="margin-top:-80px;width:auto; max-height:300px; object-fit:cover; border-radius:10px;">
-  <h2>Reserve seu horário </h2>
-  <p>Alugue o campo ou reserve o espaço completo para eventos e confraternizações</p>
-  <a href="https://wa.me/SEUNUMERO" class="btn">Reservar agora</a>
-</section>
+<button onclick="irParaCalendario()" class="btn" target="_blank">
+  Reservar o Campo
+</button>
 
 
 
