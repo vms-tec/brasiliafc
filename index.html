@@ -124,7 +124,39 @@
         font-size: 24px;
       }
     }
+#horarios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
 
+.horario {
+  width: 80px;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.livre {
+  background: #0A3D91;
+  color: white;
+}
+
+.livre:hover {
+  background: #1e5ed6;
+}
+
+.ocupado {
+  background: #ccc;
+  color: #555;
+  cursor: not-allowed;
+}
     
   </style>
 </head>
